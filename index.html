@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Welcome to my self-hosted website!</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fauna+One" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-41809119-3', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script src="js/app.js"></script>
+    <!-- <script>
+ var x = document.getElementById("demo");
+ function getLocation() {
+   if (navigator.geolocation) {
+       navigator.geolocation.getCurrentPosition(showPosition);
+   } else {
+       x.innerHTML = "Geolocation is not supported by this browser.";
+   }
+}
+function showPosition(position) {
+   x.innerHTML = "Latitude: " + position.coords.latitude +
+   "<br>Longitude: " + position.coords.longitude;
+   x.append(position.coords.latitude + position.coords.longitude);
+   console.log(position);
+}
+getLocation();
+ </script>  -->
+</head>
+<body>
+  <!-- large sections, initially splash picture, then about/meet me, projects, competencies -->
+  <nav class="navbar navbar-default" role="navigation">
+  <!-- Brand and hamburger get grouped on mobile displays (for better mobile layout) -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button><div class="main-background">
+      <a class="navbar-brand" href="#" style="color: ">CMB</a></div>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#welcomeHeader">Home</a></li>
+        <li><a href="https://colinmbarlow.com/blog">Blog</a></li>
+        <li class="divider"></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Work<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="http://codepen.io/Slitzweitz/pens/public/">Codepen.io</a></li>
+              <li><a href="https://gist.github.com/Slitzweitz">GitHub Profile</a></li>
+            </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="http://instagram.com/gardengee?ref=badge"><img src="img/glyph-logo_May2016.png" alt="Instagram" style="height: 25px;" /></a>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="mailto:colinmbarlow@gmail.com">Email</a></li>
+              <li><a href="http://www.linkedin.com/in/ColinMBarlow">LinkedIn</a></li>
+              <li class="divider"></li>
+            </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </nav>
+  <div class="row1">
+    <div class="main">
+      <h1>Welcome to my site!</h1>
+      <hr width="45%" color="#F1C40F">
+      <p>If you're seeing this <a href="http://getbootstrap.com/2.3.2/scaffolding.html">responsive</a>, <b>self-hosted</b> page, you're seeing a project that I created from <b>scratch</b>.</p>
+      <p>My Ubuntu-based server is running a full LEMP (Linux, "E"nginx, MariaDB, and PHP) stack, behind my TV stand!
+      </p>
+      <p>
+      I plan on adding many new features very soon (like a full ReactJS application!), so please keep coming back!</p>
+      <hr width="45%" color="#F1C40F">
+      <h2>
+        Thank you.
+      </h2>
+      <div class="app"></div>
+  </div>
+</div>
+    <div class="row2">
+      <div class="portfolio-item">
+        <a href="http://github.com/Slitzweitz">
+          <img height="85px" src="img/codepen-logo.png" />
+        </a>
+      </div>
+      <a href="http://freecodecamp.com/Slitzweitz//">
+        <img src="https://goo.gl/oQrQYo" width="85" height="85">
+      </a>
+      <a href="http://github.com/Slitzweitz">
+        <img height="85px" src="img/github-logo.png" />
+      </a>
+      <a href="http://linkedin.com/">
+        <img height="85px" src="img/linkedin-logo.svg" />
+      </a>
+      <a href="https://colinmbarlow.com/blog">
+        <img height="85px" src="img/wordpress-logo-simplified.png" />
+      </a>
+  </div>
+  <div class="footer">
+  <footer>
+    <p>For online documentation about nginx please refer to
+      <a href="http://nginx.org/">nginx.org</a>. <br />
+      Information regarding Ubuntu is available at
+      <a href="http://ubuntu.com/">ubuntu.com</a>.
+    </p>
+  </footer>
+  </div>
+  <script src="js/app.js" type="text/babel"></script>
+</body>
+
+</html>
