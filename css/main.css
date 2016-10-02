@@ -4,9 +4,12 @@ html {
 body {
   font-family: 'Fauna One', serif;
 }
-.nav {
+.active {
   border-bottom: 3px solid #F1C40F;
   padding: 0 5 0 5;
+}
+li:hover {
+  border-bottom: 3px solid #F1C40F;
 }
 .row1 {
   display: flex;
@@ -19,6 +22,11 @@ body {
 
 h1, h2 {
   font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  font-size: 48px;
+  padding-bottom: 25px;
 }
 
 .main {
@@ -48,8 +56,7 @@ h1, h2 {
   justify-content: space-around;
   align-items: center;
   align-self: flex-end;
-  background-color: #1C2F2F;
-  color: white;
+  background-color: #F1C40F;
 }
 .page-wrap:after {
   content: "";
